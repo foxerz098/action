@@ -1,7 +1,11 @@
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: 
-  
+  pull_request:
+    branches:
+    - main
+  schedule:
+    - cron: '0 */1 * * *'
 jobs:
   my-job:
     name: My Job
