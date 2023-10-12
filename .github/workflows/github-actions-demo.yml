@@ -14,7 +14,7 @@ jobs:
         MY_VAR: Hi there! My name is
         FIRST_NAME: Mona
         MIDDLE_NAME: The
-        LAST_NAME: Octocat
+        LAST_NAME: TOM
       run: |
         echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
   # Explore-GitHub-Actions:
